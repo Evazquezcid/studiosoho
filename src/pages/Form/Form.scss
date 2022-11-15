@@ -1,0 +1,161 @@
+.barraContacto {
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .formulario-entero {
+    label {
+        color: #050505;
+        margin-left: 1%;
+    }
+    @media (max-width: 600px) {
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+    }
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    
+    color: #030303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    .contact_form {
+      color: #030303;
+      background-color: #ffffff;
+      background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+      justify-content: space-evenly;
+      display: flex;
+       
+      margin: 3rem;
+      gap: 2rem;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+      @media (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+        margin-bottom: 50px;
+      }
+      .h1con {
+        color: #030303;
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-align: center;
+        @media (max-width: 600px) {
+          font-weight: 400;
+          font-size: 20px;
+          margin-top: 20px;
+          
+        }
+      }
+      h4 {
+        margin-bottom: 30px;
+        color: #030303;
+        text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+        @media (max-width: 768px) {
+          font-size:small;
+        }
+      }
+      .formulario {
+        width: 45%;
+        margin-top: 3%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 600px) {
+          font-size: small;
+          text-align: left;
+          width: 100%;
+          
+        }
+        form {
+          margin: 0 auto;
+          width: auto;
+        }
+        input {
+          @media (max-width: 600px) {
+            width: 90%;
+            height: 40px;
+            font-size: 10px;
+            margin-left: 2%;
+          }
+          color: #ff7e9a;
+          display: flex;
+          margin-bottom: 20px;
+          width: 300px;
+          height: 35px;
+          border: 3px solid white;
+          border-bottom: 1px solid #afafaf;
+        }
+        textarea {
+          display: flex;
+          margin-top: 10px;
+          width: 500px;
+          height: 100px;
+          background-color: #fafafa;
+          border: 3px solid white;
+          resize: none;
+          @media (max-width: 600px) {
+            width: 300px;
+            height: 80px;
+            font-size: 10px;
+            margin-left: 2%;
+            text-align: justify;
+          }
+        }
+        button {
+          @media (max-width: 600px) {
+            margin-top: 5%;
+            margin-left: 5%;
+          }
+          margin-top: 0px;
+          width: 130px;
+          height: 40px;
+          border-radius: 10px;
+          background-color: #f3ecec;
+          border: 4px solid white;
+          color: white;
+          margin-bottom: 10px;
+          &:hover {
+            background-color:#51735A;
+            transition: 0.5s;
+            
+          }
+        }
+        h5 {
+          @media (max-width: 600px) {
+          }
+          color: #000000;
+          font-size: x-small;
+          font-weight: 400;
+        }
+      }
+      img {
+        width: 85%;
+        max-width: 500px;
+        height: auto;
+        object-fit: cover;
+        
+        
+        @media (max-width: 425px) {
+          display: none;
+          
+        }
+      }
+    }
+  }
+  
