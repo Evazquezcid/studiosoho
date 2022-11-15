@@ -44,9 +44,10 @@
 
   img {
     @media (max-width: 600px) {
-        width: 230px;
-        height: 210px;
+        width: 250px;
+        height: 260px;
         margin-bottom: 15%;
+        border-radius: 100px;
       }
     width: 340px;
     height: 310px;
