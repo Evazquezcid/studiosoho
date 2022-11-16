@@ -33,7 +33,7 @@
       background-image: url("https://www.transparenttextures.com/patterns/arches.png");
       justify-content: space-evenly;
       display: flex;
-      border: 3px solid #f89999;
+      border: 3px solid #000000;
       margin: 3rem;
       gap: 2rem;
       width: 100%;
@@ -43,7 +43,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 85%;
         margin: 1rem;
         margin-bottom: 50px;
       }
@@ -92,7 +92,7 @@
         }
         input {
           @media (max-width: 600px) {
-            width: 100%;
+            width: 70%;
             height: 30px;
             font-size: 12px;
             margin-right: 5%;
@@ -116,7 +116,7 @@
           border: 3px solid white;
           resize: none;
           @media (max-width: 600px) {
-            width: 380px;
+            width: 270px;
             height: 90px;
             font-size: 10px;
             margin-left: 2%;
@@ -151,17 +151,21 @@
         }
       }
       img {
+        @media (max-width: 600px) {
+          width: 55%;
+        max-width: 300px;
+        }
         width: 85%;
         max-width: 500px;
         height: auto;
         object-fit: cover;
         
         
-        @media (max-width: 425px) {
-          display: none;
+        
+          
           
         }
       }
     }
-  }
+  
   
